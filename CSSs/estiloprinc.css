@@ -1,0 +1,189 @@
+
+body{   background: url("../IMGs/artico.jpg") no-repeat;
+	background-size: cover; }
+
+	*{ font-family: helvetica; }	
+ 	*::first-letter{ text-transform: uppercase; }
+
+	#cabecera{
+		background: #048da0;
+		height: 12%;
+		width: 80%;
+		margin: auto;
+		font-size: 2.5em;		
+		font-weight: bold;
+		text-align: center;
+		line-height: 2.3em;
+		transition: background-color .5s, color .5s; }
+
+	#cabecera:hover{ background: #0db8d0;
+			 color: white; }
+			  	
+	#centro{		
+		height: 76%;
+		width: 98%;
+		margin: auto; }
+	
+	a{ text-decoration: none; }
+	
+	#a{
+		background: #43d4e8;
+		height: 100%;
+		width: 20%;
+		float: left; }
+		 
+		div#a a{ color: #1d30eb; }
+
+		div#a table{ 
+			height: 100%;
+			width: 100%;
+			text-align: center;
+			border: 3px groove #4e8eff; }
+
+		div#a td{
+			background: #0db8d0;
+			border-style: none;
+			font-weight: bold }
+
+		div#a td:hover{ background: #d7f059; }
+			
+		div#a td a{ transition: color .8s; }
+		
+		div#a td:hover a{ color: #100670; }
+		
+		#a .principal{ color: #bf2b5d;
+			       font-weight: 900; }
+
+	#b{
+		background: #43d4e8;
+		height: 91.7%;
+		width: 74%;
+		float: left;
+		padding: 1.63% 3%;
+		font-size: 135%;
+		overflow-y: scroll;
+		text-align: justify;
+		}
+		
+	#b_index{
+		background: #43d4e8;
+		height: 100%;
+		width: 80%;
+		float: left;
+		padding: 0% 0%;
+		}
+		
+	img.centrado{ 
+		height: 55%;
+		width: 35%;
+		display: line;
+		}
+
+	img#der{
+		float: right;
+		margin: 0 0 1% 2%;
+		}
+
+	img#izq{
+		float: left;
+		margin: 0 2% 1% 0;
+		}
+	
+	.centrado{
+		text-align: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		
+		}
+
+	.negrita{
+		font-weight: bold;
+		}
+	
+	.italica{
+		font-style: italic;
+		}
+
+	.subray{
+		text-decoration: underline;
+		}
+
+	div#pie button {
+ 		background-color: transparent;
+  		border: none;
+		color: purple;
+		margin: 2.7% 20% 0 30%;
+		font-size: 100%;
+		cursor: pointer;
+		}
+
+	.morado{ color: purple; }
+
+	#pie{
+		background: #048da0;
+		height: 12%;
+		width: 88%;
+		clear: both;
+		margin: auto;
+		display: block;
+		color: yellow; }
+	
+
+	.c{
+		display: none;
+		position: absolute;
+		background: #11c2ff;
+		border: 5px ridge #0079a3;
+		height: 65%;
+		width: 37%;
+		top: 15%;
+		left: 30%;
+		padding: 1.25% 1.5%;
+		}	
+
+	.visible-div{
+		display: block; }	
+
+	.c label {
+  		font-size: 1.2em;
+ 		font-weight: bold;
+		}
+
+	.c label:focus {
+  		border-bottom: 2px solid blue;
+		}
+
+	.c input[type="text"], .c input[type="number"], .c textarea {
+  		font-size: 1.1em;
+ 		padding: 5px;
+ 		width: 100%;
+		border-radius: 5px;
+		margin: 1% 0 2% 0;
+		}
+	
+	.c textarea{
+		height: 55%;
+		}
+
+	.c input[type="text"]:focus, .c input[type="number"]:focus, .c textarea:focus {
+ 		background-color: #f1f1f1;
+		}
+
+	.c input[type="submit"] {
+		position: absolute;
+		right: 2.5%;
+		bottom: 2.5%;
+ 		background-color: #087195;
+ 		color: white;
+  		padding: 10px 20px;
+  		border: none;
+  		border-radius: 5px;
+  		font-size: 1.2em;
+  		cursor: pointer;
+		}
+
+	.c input[type="submit"]:hover {
+  		background-color: #075f7e;
+		}
+

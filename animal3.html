@@ -1,0 +1,80 @@
+<html>
+<head>
+	<title>Página Web - Daniel C</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        
+  <link href="CSSs/estiloprinc.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+	<div id="cabecera" class="centrado">
+		Foca
+	</div>
+	
+	<div id="centro">
+		<div id="a">
+			<table>
+		<tr>
+			<td><a href="animal1.html">Pingüino</a></td>
+		</tr>
+		<tr>
+			<td><a href="animal2.html">Orca</a></td>
+		</tr>
+		<tr>
+			<td><a href="index.html" class="principal">Ir a Principal</a></td>
+		</tr>
+		<tr>
+			<td><a href="animal4.html">Ballena Azul</a></td>
+		</tr>
+		<tr>
+			<td><a href="animal5.html">Petrel</a></td>
+		</tr>
+		<tr>
+			<td><a href="animal6.html">Kril</a></td>
+		</tr>
+			</table>
+		</div>                      
+
+		<div id="b">
+			<img height="55%" width="48%" id="izq" src="IMGs/foca.jpg"/>
+			<img height="55%" width="48%" id="der" src="IMGs/foca2.jpg"/>
+La foca común, foca de puerto​ o foca moteada (Phoca vitulina) es una especie de mamífero pinnípedo de la familia de los fócidos que habita a lo largo de las líneas costeras de los mares templados y fríos del hemisferio norte. Se la puede hallar en las aguas costeras del norte del Atlántico y del Pacífico, así como también en el mar Báltico y en el mar del Norte, lo que la convierte en la especie más ampliamente distribuida del orden de los pinnípedos, el cual incluye a la morsa, los otarios y las focas verdaderas.
+
+Las focas moteadas <span class="subray negrita">son de color marrón, canela o gris, con orificios nasales distintivamente curvados en forma de V</span>. Un adulto puede obtener una altura de 1.85 metros y un peso de 130 kilos. Las hembras viven más que los machos (30-35 años frente a 20-25 años). Las focas moteadas se apegan a sus familias descansando en zonas que les son familiares, generalmente áreas rocosas donde no pueden ser alcanzadas por depredadores, y en las que tienen un suministro seguro de peces para comer. Los machos luchan bajo el agua para poder aparearse con una hembra. Estas se aparean con los machos más fuertes y luego dan a luz a crías, que sólo son cuidadas por las hembras. Las crías son capaces de nadar y zambullirse a pocas horas de haber nacido, y crecen rápidamente con la leche materna.
+<p>
+Estos pinnípedos poseen sistemas muy desarrollados de mecanorrecepción, por lo que pueden detectar y discriminar objetos por contacto directo con los mismos, así como analizar movimientos de agua, lo que resulta fundamental para su orientación.
+Cada individuo posee un patrón único de manchas oscuras (o manchas claras en un fondo oscuro) que varían en color de negro parduzco a canela o gris; su vientre es generalmente claro. El cuerpo y las aletas son cortas, con una cabeza redondeada y grande en proporción. Los orificios aparecen distintivamente con curvas en forma de V; mientras que otros fócidos, no tienen orejas, o pabellón auricular. Un canal auricular relativamente grande (para una foca) puede ser visible detrás del ojo. Incluyendo la cabeza y las aletas, pueden llegar a alcanzar una longitud adulta de 1.85 metros y un peso de 130 kilogramos. Las hembras son generalmente más pequeñas que los machos.</p>
+		</div>
+	</div>
+
+	<div id="pie">
+		<button class="boton">Sugerir animal</button>
+		<a href="acercade.html" class="morado">Acerca del fundador...</a>
+		
+	</div> 
+		
+	<div class="c">
+		<form>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+
+    <label for="altura">Altura:</label>
+    <input type="number" step=".01" min="0" max="30" id="altura" name="altura" required>
+
+    <label for="descripcion">Descripción:</label>
+    <textarea id="descripcion" name="descripcion" required></textarea>
+
+    <input type="submit" value="Enviar">
+ 		</form>
+	</div>
+		
+<script>
+const button = document.querySelector('.boton');
+const div = document.querySelector('.c');
+
+button.addEventListener("click", function(){
+  div.classList.toggle('visible-div');
+});
+</script>
+</body>
+</html>

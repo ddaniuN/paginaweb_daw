@@ -1,0 +1,72 @@
+<html>
+<head>
+	<title>Página Web - Daniel C</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        
+  <link href="CSSs/estiloprinc.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+	<div id="cabecera">
+		Animales de la Antártida
+	</div>
+	
+	<div id="centro">
+		<div id="a">
+			<table>
+		<tr>
+			<td><a href="animal1.html">Pingüino</a></td>
+		</tr>
+		<tr>
+			<td><a href="animal2.html">Orca</a></td>
+		</tr>
+		<tr>
+			<td><a href="animal3.html">Foca</a></td>
+		</tr>
+		<tr>
+			<td><a href="animal4.html">Ballena Azul</a></td>
+		</tr>
+		<tr>
+			<td><a href="animal5.html">Petrel</a></td>
+		</tr>
+		<tr>
+			<td><a href="animal6.html">Kril</a></td>
+		</tr>
+
+			</table>
+		</div>                      
+
+		<div id="b_index" class="centrado"><iframe width="1191" height="580" src="https://www.youtube.com/embed/uVN2UmZM_Q8?controls=0&loop=1&mute=1&autoplay=1&modestbranding=1&showinfo=0&rel=0" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; web-share" allowfullscreen></iframe></span>
+                </div>
+	</div>
+	<div id="pie">
+		<button class="boton">Sugerir animal</button>
+		<a href="acercade.html" class="morado">Acerca del fundador...</a>
+		
+	</div> 
+		
+	<div class="c">
+		<form>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+
+    <label for="altura">Altura:</label>
+    <input type="number" step=".01" min="0" max="30" id="altura" name="altura" required>
+
+    <label for="descripcion">Descripción:</label>
+    <textarea id="descripcion" name="descripcion" required></textarea>
+
+    <input type="submit" value="Enviar">
+ 		</form>
+	</div>
+		
+<script>
+const button = document.querySelector('.boton');
+const div = document.querySelector('.c');
+
+button.addEventListener("click", function(){
+  div.classList.toggle('visible-div');
+});
+</script>
+</body>
+</html>

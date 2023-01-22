@@ -1,0 +1,32 @@
+
+body{   background: url("../IMGs/artico.jpg") no-repeat;
+	background-size: cover; }
+
+	#a{
+		height: 70%;
+		width: 40%;
+		margin: 7.5% auto; }
+
+	#cabecera{
+		background: #048da0;
+		height: 10%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: lightblue;
+		font-size: 2.5em; }
+
+	img.tamtotal{
+		height: 85%;
+		width: 100%; }
+
+	#a .centrado{
+		margin: 0% 40%;
+		color: white; }
+		
+	#a a{
+		transition: background-color .5s;
+		text-decoration: none; }
+
+	#a .centrado:hover{
+		background: #048da0; }
